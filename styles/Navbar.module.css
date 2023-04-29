@@ -1,0 +1,28 @@
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 40px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo > h2{
+    margin-left: 20px;
+    color: var(--blue);
+}
+.search{
+    border: 2px solid lightgray;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.search > input{
+    width: 470px;
+    border: none;
+    outline: none;
+    padding: 2px 5px;
+    font-size: 17px;
+}
